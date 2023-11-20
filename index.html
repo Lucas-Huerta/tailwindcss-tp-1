@@ -3,11 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwindcss tp-1</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+    <nav>
+        <ul class="flex py-2 border-b justify-between items-center">
+            <li class="mx-6 flex items-center">
+                <img class="w-1/6" src="./assets/windmill.png" alt="logo navbar wind">
+                <a href="#" class="relative ml-2">
+                    <span class="text-xl font-bold">
+                        Wind
+                    </span>
+                    <span class="absolute top-4 text-lg text-green-600 font-bold">
+                        Ui
+                    </span>
+                </a>
+            </li>
+            <li class="mr-6">
+                <a href="#" class="text-gray-700">Components</a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
